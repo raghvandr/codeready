@@ -13,7 +13,7 @@ COPY config/php.ini /usr/local/etc/php/
 RUN composer self-update 2.4.2
 RUN composer dump-autoload
 #RUN composer install
-COPY AppAsset.php assets/AppAsset.php
+#COPY AppAsset.php assets/AppAsset.php
 EXPOSE 80
 #CMD php -S 0.0.0.0:80 -t /var/www/html/
-CMD php -S 0.0.0.0:80 -t /codeready/
+CMD php yii serve localhost:80

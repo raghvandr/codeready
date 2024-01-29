@@ -16,4 +16,4 @@ RUN composer dump-autoload
 #COPY AppAsset.php assets/AppAsset.php
 EXPOSE 80
 #CMD php -S 0.0.0.0:80 -t /var/www/html/
-CMD php -S 0.0.0.0:80 -t /codeready/
+CMD php yii serve 0.0.0.0:80
