@@ -65,6 +65,56 @@ class SiteController extends Controller
     }
 
     /**
+     * Displays blog.php.
+     *
+     * @return string
+     */
+    public function actionBlog()
+    {
+        return $this->render('blog.php');
+    }
+
+    /**
+     * Displays blog-details.php.
+     *
+     * @return string
+     */
+    public function actionBlogdetails()
+    {
+        return $this->render('blog-details.php');
+    }
+
+    /**
+     * Displays services-detailsweb.php.
+     *
+     * @return string
+     */
+    public function actionServicesweb()
+    {
+        return $this->render('services-details-web');
+    }
+
+    /**
+     * Displays services-detailsai.php.
+     *
+     * @return string
+     */
+    public function actionServicesai()
+    {
+        return $this->render('services-details-dsai');
+    }
+
+    /**
+     * Displays services-details.php.
+     *
+     * @return string
+     */
+    public function actionServicescloud()
+    {
+        return $this->render('services-details-cloud');
+    }
+
+    /**
      * Login action.
      *
      * @return Response|string
@@ -124,5 +174,29 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+    }
+
+    /**
+     * Displays courses page.
+     *
+     * @return string
+     */
+    public function actionCourses()
+    {
+        return $this->render('courses');
+    }
+
+    public function actionDevelopment()
+    {
+        return $this->render('development');
+    }
+
+    public function actionDsai()
+    {
+        return $this->render('dsai');
+    }
+    public function actionCloud()
+    {
+        return $this->render('cloud');
     }
 }

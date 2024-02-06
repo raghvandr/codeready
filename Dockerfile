@@ -1,5 +1,5 @@
 #FROM php:7.2.34-zts-alpine3.12
-FROM php:7.4-fpm
+FROM php:8.2-fpm
 RUN docker-php-ext-install sockets
 RUN docker-php-ext-install pdo pdo_mysql
 
@@ -16,4 +16,4 @@ RUN composer dump-autoload
 #COPY AppAsset.php assets/AppAsset.php
 EXPOSE 80
 #CMD php -S 0.0.0.0:80 -t /var/www/html/
-CMD php -S 0.0.0.0:80 -t /codeready/
+CMD php -S 0.0.0.0:80 
