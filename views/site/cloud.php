@@ -8,8 +8,31 @@ $this->title = 'Cloud';
 
 
   <main id="main">
+
+
+
+<script type="text/javascript">
   
-    
+</script>
+<div class="slider">
+  <div class="slides">
+    <img src="image1.jpg" alt="Slide 1">
+    <img src="image2.jpg" alt="Slide 2">
+    <img src="image3.jpg" alt="Slide 3">
+  </div>
+  <button class="prev" onclick="prevSlide()">Previous</button>
+  <button class="next" onclick="nextSlide()">Next</button>
+</div>
+
+
+
+
+
+
+</section>
+
+
+
   <!-- Hero Section - Home Page -->
     <!--<section id="hero" class="hero">
        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
@@ -53,11 +76,11 @@ $this->title = 'Cloud';
       <h1 class="display-3 fs-title-lg-bold aos-init   text-center" data-column="intro_title" data-aos="fade-up">
           Cloud Services
         </h1>
-      <p class="fs-title-bold aos-init  text-center" data-column="intro_title" data-aos="fade-up">Secure and managed cloud solutions that drive the outcome-based modernization you need</p>
+      <p class="fs-title-bold aos-init  text-center" data-column="intro_title" data-aos="fade-up">Experience secure and managed cloud solutions that empower your transformation journey.</p>
       
     </div>
     <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-      <img src="assets/img/cloud/sky_highrisewithtree_16x9.jpg" class="img-fluid " style="border-radius:5%;" alt="">
+      <img src="img/sky_highrisewithtree_16x9.jpg" class="img-fluid " style="border-radius:5%;" alt="">
     </div>
   </div>
   <!-- Features Item -->
@@ -73,19 +96,18 @@ $this->title = 'Cloud';
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <h3 class="fs-title-bold aos-init  text-center" data-column="intro_title" data-aos="fade-up">Unlock innovation with the right cloud solutions</h3>
+      <h3 class="fs-title-bold aos-init  text-center" data-column="intro_title" data-aos="fade-up">Unleash innovation with the  right cloud solutions</h3>
     </div>
     <!-- <div class="card border-secondary mb-3 col-md-6">
     <div class="card-body">
       <p class="card-text bg-transparent fs-title-bold aos-init aos-animate text-justify" data-column="intro_title" data-aos="fade-up">
-      Cloud has emerged as an enabler of transformation, but there are still significant barriers to cloud expansion and many enterprises are struggling to prove transformation value or to tie IT value to business outcomes.  Kyndryl Cloud Services provide a 360-degree approach identifying and solving challenges and driving transformation forward.
+      Cloud has emerged as an enabler of transformation, but there are still significant barriers to cloud expansion and many enterprises are struggling to prove transformation value or to tie IT value to business outcomes.  Coders Ready Cloud Services provide a 360-degree approach identifying and solving challenges and driving transformation forward.
       </p>
       </div>
     </div> -->
   <div class="col-md-6">
   <p class="bg-transparent fs-title-bold aos-init text-justify" data-column="intro_title" data-aos="fade-up">
-    Cloud has emerged as an enabler of transformation, but there are still significant barriers to cloud expansion and many enterprises are struggling to prove transformation value or to tie IT value to business outcomes.  Kyndryl Cloud Services provide a 360-degree approach identifying and solving challenges and driving transformation forward.
-    </p>
+  While cloud technology has paved the way for transformation there are still obstacles hindering cloud adoption. Many enterprises struggle to demonstrate the value of their transformation initiatives or align IT investments with business objectives. Coders Ready Cloud Services takes an approach addressing challenges and propelling organizations forward on their path.
   </div>
   </div>
 </div>
@@ -106,7 +128,7 @@ $this->title = 'Cloud';
   <div class="row gy-4 align-items-stretch justify-content-between features-item ">
     <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
       <h1 class="display-4 fs-title-lg-bold aos-init aos-animate  text-center" data-column="intro_title" data-aos="fade-up" >Cloud Consulting</h1>
-      <p class="text-justify">Leverage our decades of experience with some of the world's most complicated IT environments to create your optimal cloud strategy, streamline your IT architecture, and achieve your desire business results.</p>
+      <p class="text-justify">Leverage our expertise, in managing complex IT environments to craft a tailored cloud strategy optimize your IT infrastructure and achieve your desired business outcomes.</p>
       <!-- <a href="#" class="btn rounded-pill btn-get-started align-self-start">Explore Cloud Consulting <i class="bi bi-arrow-right-circle"></i></a> -->
       <a href="#" class="">
         <button type="button" class="btn btn-outline-danger"><span class="text-success">Explore:</span> Cloud Consulting 
@@ -117,18 +139,18 @@ $this->title = 'Cloud';
       </a>
     </div>
     <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-      <img src="assets/img/cloud/P504553_SHOT_17_4x3.jpg" class="img-fluid" style="border-radius:10% 20%;" alt="">
+      <img src="img/P504553_SHOT_17_4x3.jpg" class="img-fluid" style="border-radius:10% 20%;" alt="">
     </div>
   </div>
   <!-- Features Item 1-->
 
   <div class="row gy-4 align-items-stretch justify-content-between features-item ">
     <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-      <img src="assets/img/cloud/cloud_private.jpg" class="img-fluid" style="border-radius:20% 10%;" alt="">
+      <img src="img/cloud_private.jpg" class="img-fluid" style="border-radius:20% 10%;" alt="">
     </div>
     <div class="col-lg-5 d-flex justify-content-center flex-column"  data-aos="fade-up">
       <h2 class="display-4 fs-title-lg-bold aos-init aos-animate  text-center" data-column="intro_title" data-aos="fade-up" >Private Cloud Services</h2>
-      <p class="text-justify">Experience the perfect combination of cloud efficiency and private infrastructure performance, compliance, and security that empowers you to modernize and manage your enterprise. We offer a unified, consistent approach across all the cloud landscape with our dedicated on-prem resources and our seamless integration with public cloud workloads. </p>
+      <p class="text-justify">Enjoy the seamless cloud efficiency at par with relatively better performance as regards security, compliance, and private infrastructure in modernizing and handling your enterprise. We provide a uniform approach across the whole cloud landscape by our dedicated on-prem resources, as well as native integration with public clouds’ operational workloads.</p>
       
       <a href="#" class="">
         <button type="button" class="btn btn-outline-danger"><span class="text-success" >Explore:</span> Private Cloud Services 
@@ -144,7 +166,7 @@ $this->title = 'Cloud';
   <div class="row gy-4 align-items-stretch justify-content-between features-item ">
     <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
       <h1 class="display-4 fs-title-lg-bold aos-init aos-animate  text-center" data-column="intro_title" data-aos="fade-up" >Public Cloud Services</h1>
-      <p class="text-justify">Our proven, standardized, and repeatable services are meticulously designed to empower you to effortlessly design and deploy your applications and workloads on the optimal public cloud platform for your enterprise. Kyndryl Public Cloud services prioritize security and ease of management in addition to offering flexible deployment options tailored to your specific needs. From initial design to ongoing management, our Public Cloud Services provide comprehensive, integrated, and full-lifecycle support for cloud environments, all built on industry best practices, and fully aligned with the unique cloud adoption and management frameworks of each hyperscaler.</p>
+      <p class="text-justify">We design and implement services that have been proven to be functional, standardized, repeatable solutions with implementation detail relevant for your enterprise enabling you to easily develop and deploy application workloads on the optimal public cloud infrastructure. Coders Ready Public Cloud solutions thus integrate security, as well as scalability in management and deployment options adapted to your requirements specifically. Our Public Cloud Services cover the entire life cycle of cloud environments, from initial design to ongoing management; all based on industry best practices and fully in accordance with hyperscaler’s specialized framework for cloud adoption and management.</p>
       <!-- <a href="#" class="btn rounded-pill btn-get-started align-self-start">Explore Cloud Consulting <i class="bi bi-arrow-right-circle"></i></a> -->
       <a href="#" class="">
         <button type="button" class="btn btn-outline-danger"><span class="text-success" >Explore:</span> Public Cloud Services 
@@ -155,7 +177,7 @@ $this->title = 'Cloud';
       </a>
     </div>
     <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-      <img src="assets/img/cloud/P504553_SHOT_17_4x3.jpg" class="img-fluid" style="border-radius:10% 20%;" alt="">
+      <img src="img/P504553_SHOT_17_4x3.jpg" class="img-fluid" style="border-radius:10% 20%;" alt="">
     </div>
   </div>
   <!-- Features Item 3-->
@@ -163,11 +185,11 @@ $this->title = 'Cloud';
   
   <div class="row gy-4 align-items-stretch justify-content-between features-item ">
     <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-      <img src="assets/img/cloud/mo.jpg" class="img-fluid" style="border-radius:20% 10%;" alt="">
+      <img src="img/mo.jpg" class="img-fluid" style="border-radius:20% 10%;" alt="">
     </div>
     <div class="col-lg-5 d-flex justify-content-center flex-column"  data-aos="fade-up">
       <h2 class="display-4 fs-title-lg-bold aos-init aos-animate  text-center" data-column="intro_title" data-aos="fade-up" >Modern Operations</h2>
-      <p class="text-justify">Kyndryl seamlessly integrates people, processes, and cutting-edge technology to provide unparalleled value that iterates on your current state, anticipated future needs, and the precise steps required to optimize your operational processes and maximize efficiency. Our evolved operating model is specifically tailored to meet the challenges and opportunities of today's rapidly evolving digital landscape, and expertly managed to facilitate ongoing business growth.</p>
+      <p class="text-justify">CodersReady offers a frictionless value by providing people, processes and that exclusive technology all in one efficient medium that iterates on the current state of your needs while simultaneously accounting for future projected demand as well what it takes to make finer adjustments towards operational efficiencies. Our evolved operating progress is uniquely designed to address the threat and opportunities in today’s dynamic digital ecosystem; capably managing it so as ensure on-going commercial expansion.</p>
       
       <a href="#" class="">
         <button type="button" class="btn btn-outline-danger"><span class="text-success" >Explore:</span> Modern Operations 
@@ -183,7 +205,7 @@ $this->title = 'Cloud';
   <div class="row gy-4 align-items-stretch justify-content-between features-item ">
     <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
       <h1 class="display-4 fs-title-lg-bold aos-init aos-animate  text-center" data-column="intro_title" data-aos="fade-up" >Cloud Migration Services</h1>
-      <p class="text-justify">Embark on your cloud adoption journey with Kyndryl's Cloud Migration Services. Develop and execute the optimal migration strategy for your enterprise. Minimize the complexities of cloud migration and streamline your journey with our expert assessment and seamless workload migration capabilities. Kyndryl builds secure, repeatable, and scalable cloud environments for you on the cloud provider of your choice.</p>
+      <p class="text-justify">Rev your cloud adoption onto the fast lane with Coders Ready’s Cloud Migration Services. Plan and implement the best migration strategy for your corporation. Reduce the simplicity of cloud migration and make your journey simpler with our precise overview stylish workload movement skills. Coders Ready creates for you a secure, repeatable and scalable cloud environments on the top of your choice in provider.</p>
       <!-- <a href="#" class="btn rounded-pill btn-get-started align-self-start">Explore Cloud Consulting <i class="bi bi-arrow-right-circle"></i></a> -->
       <a href="#" class="">
         <button type="button" class="btn btn-outline-danger"><span class="text-success" >Explore:</span> Cloud Migration Services 
@@ -195,18 +217,18 @@ $this->title = 'Cloud';
       </a>
     </div>
     <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-      <img src="assets/img/cloud/cms.jpg" class="img-fluid" style="border-radius:10% 20%;" alt="">
+      <img src="img/cms.jpg" class="img-fluid" style="border-radius:10% 20%;" alt="">
     </div>
   </div>
   <!-- Features Item 5-->
 
   <div class="row gy-4 align-items-stretch justify-content-between features-item ">
     <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-      <img src="assets/img/cloud/mcs.jpg" class="img-fluid" style="border-radius:20% 10%;" alt="">
+      <img src="img/mcs.jpg" class="img-fluid" style="border-radius:20% 10%;" alt="">
     </div>
     <div class="col-lg-5 d-flex justify-content-center flex-column"  data-aos="fade-up">
       <h2 class="display-4 fs-title-lg-bold aos-init aos-animate  text-center" data-column="intro_title" data-aos="fade-up" >Managed Cloud Services</h2>
-      <p>With a suite of unparalleled capabilities across public, private, and hybrid cloud, Kyndryl empowers enterprises to optimize and modernize their infrastructure and applications, enabling them to fully harness the potential of the cloud, while also offering an array of managed services that cover the entire IT stack. Maximize the full potential of your IT infrastructure with Kyndryl Managed Services.</p>
+      <p>For organizations that are looking for the best suite of capabilities in public, private and hybrid cloud environments as well managed services across all layers to optimize their infrastructure ad modernise application Coders Ready can empower enterprises with full opportunity offered by new technology. With Coders Ready Managed Services, unimate the entire capacity attached to your IT infrastructure.</p>
       
       <a href="#" class="">
         <button type="button" class="btn btn-outline-danger"><span class="text-success" >Explore:</span> Managed Cloud Services 
@@ -232,14 +254,14 @@ $this->title = 'Cloud';
                     <div class="card text-white mb-3" style="max-width: auto em;background-color:#042315;">
                       <!-- <div class="card-header "> -->
                         <div class="text-left p-3 ">
-                          <img class="img-h-80" alt="Icon-Full-stack-AI" src="assets/img/cloud/lt_1_improve_service_efficiency.svg">
+                          <img class="img-h-80" alt="Icon-Full-stack-AI" src="img/lt_1_improve_service_efficiency.svg">
                         </div>
                       <!-- </div> -->
                       <div class="card-body hover-zoom  ">
                         <h4 class="card-title">Reduce risk
                         <hr style="width:25%;text-align:left;height:5px;color:#4cdd84;">
                         </h4>
-                        <p class="card-text">Our services are designed with integrated industry best practices, processes, and methodologies that are reinforced by  24-7 support, that helps your service runs smoothly, minimizes the risk of failure and drives your ongoing success.</p>
+                        <p class="card-text">With integrated industry best practices, processes and methodologies is reinforced with 24/7 support that ensures your service runs smoothly; the hazards of failure are eliminated while being driven towards sustainable success.</p>
                       </div>
                     </div>
                   </div><!--  Item 1-->
@@ -248,13 +270,13 @@ $this->title = 'Cloud';
                     <div class="card text-white mb-3" style="max-width: auto em;background-color:#042315;">
                       <!-- <div class="card-header"> -->
                         <div class="text-left p-3">
-                          <img class="img-h-80" alt="Icon-Full-stack-AI" src="assets/img/cloud/lt_2_improve_your_it_operations.svg">
+                          <img class="img-h-80" alt="Icon-Full-stack-AI" src="img/lt_2_improve_your_it_operations.svg">
                         </div>
                       <!-- </div> -->
                       <div class="card-body">
                         <h4 class="card-title">Secure</h4>
                         <hr style="width:25%;text-align:left;height:5px;color:#4cdd84;">
-                        <p class="card-text">Our modern security and privacy measures safeguard your data and our time-tested processes coupled with our cloud governance, compliance, and visibility features provide unparalleled transparency and control over your IT environment from our user-friendly digital self-service model.</p>
+                        <p class="card-text">Our evolved security and data protection controls protect your resources while our battle-tested processes along with cloud governance, compliance, and visibility capabilities offer never seen transparency as wells full control VIA a user friendly digital self service model.</p>
                       </div>
                     </div>
                   </div><!--  Item 2-->
@@ -263,13 +285,13 @@ $this->title = 'Cloud';
                     <div class="card text-white mb-3" style="max-width: auto em;background-color:#042315;">
                       <!-- <div class="card-header "> -->
                         <div class="text-left p-3">
-                          <img class="img-h-80" alt="Icon-Full-stack-AI" src="assets/img/cloud/lt_3_manage_cloud_spend.svg">
+                          <img class="img-h-80" alt="Icon-Full-stack-AI" src="img/lt_3_manage_cloud_spend.svg">
                         </div>
                       <!-- </div> -->
                       <div class="card-body">
                         <h4 class="card-title">Manage</h4>
                         <hr style="width:25%;text-align:left;height:5px;color:#4cdd84;">
-                        <p class="card-text">Prioritize your business objectives by entrusting the management of your IT estate to the Kyndryl experts. Our intelligent monitoring and pre-emptive management of hybrid multi-cloud environments allow you to optimize the potential of your cloud environment, giving you the freedom to focus on what truly matters.</p>
+                        <p class="card-text">Open up your business priorities on IT estate managed by these Coders Ready experts. Our intuitive monitoring and proactive steering of hybrid multi-cloud environments makes it possible for you to fully use the potential that your cloud environment offers, leaving specialized managements issues in safe hands.</p>
                       </div>
                     </div>
                   </div><!--  Item 3-->
@@ -300,7 +322,7 @@ $this->title = 'Cloud';
       </a>
     </div>
     <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-      <img src="assets/img/cloud/team_womaninred.jpg" class="img-fluid" style="border-radius:10% 20%;" alt="">
+      <img src="img/team_womaninred.jpg" class="img-fluid" style="border-radius:10% 20%;" alt="">
     </div>
   </div>
   <!-- Features Item 5-->
@@ -324,27 +346,27 @@ $this->title = 'Cloud';
         <div class="row gy-4">
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <img src="img/client-1.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img src="img/client-2.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img src="img/client-3.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img src="img/client-4.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            <img src="img/client-5.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            <img src="img/client-6.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
         </div>

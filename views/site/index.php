@@ -7,17 +7,18 @@ $this->title = 'Coders Ready';
 <body  class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-delay="0">
 
   <main id="main">
+    
   
-    <!-- Hero Section - Home Page -->
+  <!-- Hero Section - Home Page -->
     <section id="hero" class="hero">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-
-      <div class="container">
+      <img class="aos-init " src="img/hero-bg.jpg" alt="" data-aos="fade-in">
+      
+      <!-- <div class="container">
         <div class="row">
           <div class="col-lg-6">
             <h2 data-aos="fade-up" data-aos-delay="100">Coders Ready</h2>
-            <!-- <p data-aos="fade-up" data-aos-delay="200">We are team of supremely talented highly Experienced people.</p> -->
+            <p data-aos="fade-up" data-aos-delay="200">We are team of supremely talented highly Experienced people.</p>
             <ul data-aos="fade-up" data-aos-delay="300" >
               <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="300" ><i class="bi bi-check-circle-fill">Industry relevant job oriented 6 months. Online Certification Courses.</i></li><hr>
               <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="400"><i class="bi bi-check-circle-fill">No boring Recorded lectures. All classes are live, highly interactive compact batches.</i></li><hr>
@@ -35,9 +36,21 @@ $this->title = 'Coders Ready';
             </form>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </section><!-- End Hero Section -->
+
+    <section class="team">
+
+
+
+
+
+
+
+
+    
+    </section>
 
     <!-- Clients Section - Home Page -->
     <section id="clients" class="clients">
@@ -47,27 +60,27 @@ $this->title = 'Coders Ready';
         <div class="row gy-4">
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <img src="img/client-1.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img src="img/client-2.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img src="img/client-3.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img src="img/client-4.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            <img src="img/client-5.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            <img src="img/client-6.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
         </div>
@@ -128,7 +141,7 @@ $this->title = 'Coders Ready';
     <!-- Stats Section - Home Page -->
     <section id="stats" class="stats">
 
-      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+      <img src="img/stats-bg.jpg" alt="" data-aos="fade-in">
 
       <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
 
@@ -369,7 +382,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
             <div class="member-img">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <img src="img/team-1.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -387,7 +400,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
-              <img src="assets/img/team/Team-2.jpg" class="img-fluid" alt="">
+              <img src="img/Team-2.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -409,7 +422,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-img">
-              <img src="assets/img/team/Team-3.jpg" class="img-fluid" alt="">
+              <img src="img/Team-3.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -426,7 +439,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
             <div class="member-img">
-              <img src="assets/img/team/Team-4.jpg" class="img-fluid" alt="">
+              <img src="img/Team-4.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -446,7 +459,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
             <div class="member-img">
-              <img src="assets/img/team/team-5.jpg" class="img-fluid" alt="">
+              <img src="img/team-5.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -463,7 +476,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
             <div class="member-img">
-              <img src="assets/img/team/team-6.jpg" class="img-fluid" alt="">
+              <img src="img/team-6.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -481,7 +494,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="700">
             <div class="member-img">
-              <img src="assets/img/team/team-7.jpg" class="img-fluid" alt="">
+              <img src="img/team-7.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -500,7 +513,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="800">
             <div class="member-img">
-              <img src="assets/img/team/team-8.jpg" class="img-fluid" alt="">
+              <img src="img/team-8.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -518,7 +531,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="900">
             <div class="member-img">
-              <img src="assets/img/team/team-9.jpg" class="img-fluid" alt="">
+              <img src="img/team-9.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -536,7 +549,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="1000">
             <div class="member-img">
-              <img src="assets/img/team/team-10.jpg" class="img-fluid" alt="">
+              <img src="img/team-10.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -554,7 +567,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="1100">
             <div class="member-img">
-              <img src="assets/img/team/team-11.jpg" class="img-fluid" alt="">
+              <img src="img/team-11.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -571,7 +584,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="1100">
             <div class="member-img">
-              <img src="assets/img/team/team-12.jpg" class="img-fluid" alt="">
+              <img src="img/team-12.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -636,7 +649,7 @@ $this->title = 'Coders Ready';
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <img src="img/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
                       <div>
                         <h3>Saul Goodman</h3>
                         <h4>Ceo & Founder</h4>
@@ -656,7 +669,7 @@ $this->title = 'Coders Ready';
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <img src="img/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
                       <div>
                         <h3>Sara Wilsson</h3>
                         <h4>Designer</h4>
@@ -676,7 +689,7 @@ $this->title = 'Coders Ready';
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <img src="img/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
                       <div>
                         <h3>Jena Karlis</h3>
                         <h4>Store Owner</h4>
@@ -696,7 +709,7 @@ $this->title = 'Coders Ready';
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <img src="img/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
                       <div>
                         <h3>Matt Brandon</h3>
                         <h4>Freelancer</h4>
@@ -716,7 +729,7 @@ $this->title = 'Coders Ready';
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <div class="d-flex">
-                      <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <img src="img/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
                       <div>
                         <h3>John Larson</h3>
                         <h4>Entrepreneur</h4>
@@ -762,7 +775,7 @@ $this->title = 'Coders Ready';
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                <img src="img/blog-1.jpg" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Politics</p>
@@ -772,7 +785,7 @@ $this->title = 'Coders Ready';
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="img/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Maria Doe</p>
                   <p class="post-date">
@@ -788,7 +801,7 @@ $this->title = 'Coders Ready';
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+                <img src="img/blog-2.jpg" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Sports</p>
@@ -798,7 +811,7 @@ $this->title = 'Coders Ready';
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="img/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Allisa Mayer</p>
                   <p class="post-date">
@@ -814,7 +827,7 @@ $this->title = 'Coders Ready';
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+                <img src="img/blog-3.jpg" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Entertainment</p>
@@ -824,7 +837,7 @@ $this->title = 'Coders Ready';
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="img/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Mark Dower</p>
                   <p class="post-date">

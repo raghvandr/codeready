@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -45,7 +45,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <!-- <img src="img/logo.png" alt=""> -->
         <h1>Append</h1>
         <span>.</span>
       </a>
@@ -134,19 +134,19 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img src="assets/img/portfolio/app-1.jpg" alt="">
+              <img src="img/portfolio/app-1.jpg" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets/img/portfolio/product-1.jpg" alt="">
+              <img src="img/portfolio/product-1.jpg" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets/img/portfolio/branding-1.jpg" alt="">
+              <img src="img/portfolio/branding-1.jpg" alt="">
             </div>
 
             <div class="swiper-slide">
-              <img src="assets/img/portfolio/books-1.jpg" alt="">
+              <img src="img/portfolio/books-1.jpg" alt="">
             </div>
 
           </div>
@@ -173,7 +173,7 @@
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <div>
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <img src="img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                   <h3>Sara Wilsson</h3>
                   <h4>Designer</h4>
                 </div>

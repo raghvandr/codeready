@@ -5,7 +5,7 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-          <img src="assets/img/logo.png" alt="">
+          <img src="img/logo.png" alt="">
             <!-- <span>Append</span> -->
           </a>
           <p>Coders Ready is a global leader delivering a wide Job oriented Courses of Artificial Intelligence , Data Science and Emerging Technology . We are a trusted training delivery partner of 72+ corporate clients</p>
