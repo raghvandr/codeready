@@ -16,14 +16,14 @@
           
           <li><a href="index.php#home" class="active">Home</a></li>
           
-          <!-- <li><a href="http://localhost:8080?r=index.phphttp://localhost:8080?r=site/blog">Blog</a></li> -->
-          <li><a href="?=site/blog">Blog</a></li>
+          <!-- <li><a href="?r=index.phphttp://localhost:8080?r=site/blog">Blog</a></li> -->
+          <li><a href="?r=site/blog">Blog</a></li>
 
           <li class="dropdown has-dropdown"><a href="index.php#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul class="dd-box-shadow">
-              <li><a href="http://localhost:8080?r=site/development" target="_blank" >Web Development</a></li>
-              <li><a href="http://localhost:8080?r=site/dsai" target="_blank">Data Science & AI </a></li>
-              <li><a href="http://localhost:8080?r=site/cloud" target="_blank">Cloud Services</a></li>
+              <li><a href="?r=site/development" target="_blank" >Web Development</a></li>
+              <li><a href="?r=site/dsai" target="_blank">Data Science & AI </a></li>
+              <li><a href="?r=site/cloud" target="_blank">Cloud Services</a></li>
             </ul>
           </li>
 
@@ -34,9 +34,9 @@
 
           <li class="dropdown has-dropdown"><a href="<?php echo Yii::$app->homeUrl . 'site/courses#courses'; ?>"><span>Courses</span> <i class="bi bi-chevron-down"></i></a>
             <ul class="dd-box-shadow">
-              <li><a href="http://localhost:8080?r=site/development" target="_blank" >Web Development</a></li>
-              <li><a href="http://localhost:8080?r=site/dsai" target="_blank">Data Science & AI </a></li>
-              <li><a href="http://localhost:8080?r=site/cloud" target="_blank">Cloud Services</a></li>
+              <li><a href="?r=site/development" target="_blank" >Web Development</a></li>
+              <li><a href="?r=site/dsai" target="_blank">Data Science & AI </a></li>
+              <li><a href="?r=site/cloud" target="_blank">Cloud Services</a></li>
             </ul>
           </li>
 

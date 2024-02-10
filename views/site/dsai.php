@@ -22,7 +22,7 @@ $this->title = 'Data Science and AI';
     <!-- <br><br><br><br> -->
     <section id="hero" class="hero">
       <div class="container-fluid">
-        <img src="img/wallog2.png" alt="" data-aos="fade-in">
+        <img src="img/bm_group.jpg" alt="" data-aos="fade-in">
       </div>
 
     </section>
@@ -36,7 +36,7 @@ $this->title = 'Data Science and AI';
             <div class="row gy-4 align-items-center features-item">
                 <div class="row gy-4 align-items-stretch justify-content-between features-item ">
                     <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-                        <img src="img/img_what_we_do.png" class="img-fluid" alt="">
+                        <img src="img/img_what_we_do.png" class="img-fluid" style="border-radius:5%;" alt="">
                     </div>
 
                     <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
@@ -88,80 +88,10 @@ $this->title = 'Data Science and AI';
     </section><!-- End Features Section -->
 
 
-<!-- ATOM Section - Home Page -->
+<!-- Enhanced Solutions for Coding Masters Section - Home Page -->
 <section id="" class="team">
 
-<!-- <img src="img/Img_Tredence_Studio2.png" alt="" data-aos="fade-in">
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <div class="card border-transparent bg-transparent mb-3" style="max-width: auto rem;">
-          <div class="card-header border-white"><h5 class="fs-title-sm-bold text-white">ATOM.AI</h5></div>
-          <div class="card-body">
-            <div class="row">
-              <div class="col-sm-1"></div>
-              <div class="col-sm-11">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-4 text-white">List group item heading</h5>
-                  
-                  </div>
-                <h4 class="card-title ">
-                  <h3 class="fs-xlg-reg pb-2 w-90 justify-content-between text-white" coders ready data-column="studio_text">
-                  Find alternative and feasible new approaches and ensure wins by using best of breed new AI technologies and machine learning available from Coders Ready AI-enabled data science solutions and accelerators
-                  </h3>
-                </h4>
-              </div>
-            </div>
-            <div class="list-group ">
-              
-            </div>
-            <div class="row  fs-sm-med pt-3 pb-2 w-90" data-column-none="studio_list_json">
-              <div class="col-md-3 mb-4 home-std-w">
-                <div class="row">
-                  <li class="card-pills border-white list-group-item bg-transparent  d-flex fs-button-lg-med  text-white" >Competency with AI, Deep Tech and Verticals.</li>
-              </div>
-            </div>
-              <div class="col-md-3 ">
-                <li class="card-pills border-white  mb-4 list-group-item bg-transparent  d-flex fs-button-lg-med  text-white" >Fully-stocked workbench</li>
-              </div>
-              <div class="col-md-3 mb-4 home-std-w">
-                <li class="card-pills border-white  mb-4 list-group-item bg-transparent  d-flex fs-button-lg-med  text-white" >High-voltage collaboration</li>
-              </div>
-              <div class="col-md-3 mb-4 home-std-w">
-                <li class="card-pills border-white  mb-4 list-group-item bg-transparent  d-flex fs-button-lg-med  text-white" >Continuous learning paradigm</li>
-              </div>
-              <div class="col-md-3 mb-4 home-std-w">
-                <li class="card-pills border-white  mb-4 list-group-item bg-transparent  d-flex fs-button-lg-med  text-white" >Extensive customization</li>
-              </div>
-              <div class="col-md-3 mb-4 home-std-w">
-                <li class="card-pills border-white  mb-4 list-group-item bg-transparent  d-flex fs-button-lg-med  text-white" >Lightning fast time to value</li>
-              </div>
-              <div class="col-md-3 mb-4 home-std-w">
-                <li class="card-pills border-white  mb-4 list-group-item bg-transparent  d-flex fs-button-lg-med  text-white" >Easy and quick iterations</li>
-              </div>
-              <div class="col-md-3 mb-4 home-std-w">
-                <li class="card-pills border-white  mb-4 list-group-item bg-transparent  d-flex fs-button-lg-med  text-white" coders ready>Design thinking approach</li>
-              </div>
-              <a data-cta-text-column="studio_cta_text" data-cta-text="Explore ATOM.AI" data-cta-link-column="studio_cta_link" data-cta-link="/atom-ai" href="/atom-ai" class="arrow-animated-btn my-3">
-                --><!--/atom-ai-->
-                <!-- <button class="btn-h-w" data-faitracker-form-bind="true">
-                  <svg width="30" height="30" class="arr-h-w" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.50063C0 7.36802 0.0526785 7.24085 0.146447 7.14708C0.240215 7.05331 0.367392 7.00063 0.5 7.00063H6.293L4.146 4.85463C4.05211 4.76075 3.99937 4.63341 3.99937 4.50063C3.99937 4.36786 4.05211 4.24052 4.146 4.14663C4.23989 4.05275 4.36722 4 4.5 4C4.63278 4 4.76011 4.05275 4.854 4.14663L7.854 7.14663C7.90056 7.19308 7.93751 7.24825 7.96271 7.309C7.98792 7.36974 8.00089 7.43486 8.00089 7.50063C8.00089 7.5664 7.98792 7.63152 7.96271 7.69227C7.93751 7.75301 7.90056 7.80819 7.854 7.85463L4.854 10.8546C4.76011 10.9485 4.63278 11.0013 4.5 11.0013C4.36722 11.0013 4.23989 10.9485 4.146 10.8546C4.05211 10.7607 3.99937 10.6334 3.99937 10.5006C3.99937 10.3679 4.05211 10.2405 4.146 10.1466L6.293 8.00063H0.5C0.367392 8.00063 0.240215 7.94795 0.146447 7.85419C0.0526785 7.76042 0 7.63324 0 7.50063Z" fill="black"></path>
-                    <rect y="7" width="1" height="1" rx="0.5" fill="black"></rect>
-                  </svg>
-                </button> -->
-                
-                <!-- <span class="text fs-button-lg-med text-white" ><u>Explore More</u></span>
-              </a>
-            </div>
-            </div>
-        </div>
-        <div class="mt-1">
-      <br><br>
-          </div>
-    <div class="col-md-6"></div>
-  </div>
-</div>  -->
+
 
 
 
@@ -171,7 +101,7 @@ $this->title = 'Data Science and AI';
         <div class="col-1 w-5"></div>
         <div class="col-md-6 w-46  text-white container-explore-col1 pt-4 ">
             <div class="mt-5">
-                <!-- <p class="fs-title-sm-bold">ATOM.AI</p> -->
+                
                 <p class="fs-title-lg-bold pb-2 w-90" data-column="studio_title">
                 Enhanced Solutions for Coding Masters
                 </p>
@@ -180,7 +110,7 @@ $this->title = 'Data Science and AI';
                 </p>
             </div>
             <div class="row  fs-sm-med pt-3 pb-2 w-90" data-column-none="studio_list_json">
-                                                <div class="col-md-3 mb-4 home-std-w">
+                <div class="col-md-3 mb-4 home-std-w">
                     <li class="fs-button-lg-med">Competency with AI &amp; Deep Tech and Verticals</li>
                 </div>
                                 <div class="col-md-3 mb-4 home-std-w">
@@ -204,8 +134,8 @@ $this->title = 'Data Science and AI';
                                 <div class="col-md-3 mb-4 home-std-w">
                     <li class="fs-button-lg-med">Design thinking approach</li>
                 </div>
-                                                <a data-cta-text-column="studio_cta_text" data-cta-text="Explore ATOM.AI" data-cta-link-column="studio_cta_link" data-cta-link="/atom-ai" href="/atom-ai" class="arrow-animated-btn my-3">
-                    <!--/atom-ai-->
+                <a data-cta-text-column="studio_cta_text" data-cta-text="Explore " data-cta-link-column="studio_cta_link" data-cta-link="#" href="#" class="arrow-animated-btn my-3">
+                    
                     <button class="btn-h-w" data-faitracker-form-bind="true">
                         <svg width="30" height="30" class="arr-h-w" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.50063C0 7.36802 0.0526785 7.24085 0.146447 7.14708C0.240215 7.05331 0.367392 7.00063 0.5 7.00063H6.293L4.146 4.85463C4.05211 4.76075 3.99937 4.63341 3.99937 4.50063C3.99937 4.36786 4.05211 4.24052 4.146 4.14663C4.23989 4.05275 4.36722 4 4.5 4C4.63278 4 4.76011 4.05275 4.854 4.14663L7.854 7.14663C7.90056 7.19308 7.93751 7.24825 7.96271 7.309C7.98792 7.36974 8.00089 7.43486 8.00089 7.50063C8.00089 7.5664 7.98792 7.63152 7.96271 7.69227C7.93751 7.75301 7.90056 7.80819 7.854 7.85463L4.854 10.8546C4.76011 10.9485 4.63278 11.0013 4.5 11.0013C4.36722 11.0013 4.23989 10.9485 4.146 10.8546C4.05211 10.7607 3.99937 10.6334 3.99937 10.5006C3.99937 10.3679 4.05211 10.2405 4.146 10.1466L6.293 8.00063H0.5C0.367392 8.00063 0.240215 7.94795 0.146447 7.85419C0.0526785 7.76042 0 7.63324 0 7.50063Z" fill="black"></path>
@@ -229,7 +159,7 @@ $this->title = 'Data Science and AI';
 
 
 </section>
-<!-- End ATOM Section -->
+<!-- End Enhanced Solutions for Coding Masters Section -->
 
     
 <!-- datasciencesolutionsprovider Section - Home Page -->
@@ -256,7 +186,7 @@ $this->title = 'Data Science and AI';
 
        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
           <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-            <img src="img/img-dss-provider.png" class="img-fluid" alt="">
+            <img src="img/img-dss-provider.png" class="img-fluid" style="border-radius:5%;" alt="">
           </div>
           <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
             <h3>We realize at Coders Ready that coding competence is not a race, but a marathon.</h3>
@@ -278,8 +208,8 @@ $this->title = 'Data Science and AI';
           </div>
           <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
             <div class="image-stack">
-              <img src="img/RRectangle1copy2.png" alt="" class="stack-front">
-              <img src="img/RRectangle1copy3.png" alt="" class="stack-back">
+              <img src="img/RRectangle1copy2.png" alt="" style="border-radius:5%;" class="stack-front">
+              <img src="img/RRectangle1copy3.png" alt="" style="border-radius:5%;" class="stack-back">
             </div>
           </div>
         </div><!-- Features Item -->
@@ -357,24 +287,24 @@ $this->title = 'Data Science and AI';
                     <div class="page-section scroll-h-35vw " id="scrol1">
                         <div class="card my-2 card-shadow ">
 
-                            <img class="img-fluid img-cover scroll-h-35vw" alt="RRectangle1copy" src="img/RRectangle1copy.png" style="width: 100%;height: 100%;">
+                            <img class="img-fluid img-cover scroll-h-35vw" alt="RRectangle1copy" src="img/RRectangle1copy.png" style="width: 100%;height: 100%;border-radius:5%;" >
 
 
                         </div>
                     </div>
                     <div class="page-section scroll-h-35vw" id="scrol2">
                         <div class="card my-2 card-shadow">
-                            <img class="img-fluid img-cover scroll-h-35vw" alt="RRectangle1copy2" src="img/RRectangle1copy2.png" style="width: 100%;height: 100%;">
+                            <img class="img-fluid img-cover scroll-h-35vw" alt="RRectangle1copy2" src="img/RRectangle1copy2.png" style="width: 100%;height: 100%;border-radius:5%;">
                         </div>
                     </div>
                     <div class="page-section scroll-h-35vw" id="scrol3">
                         <div class="card my-2 card-shadow">
-                            <img class="img-fluid  img-cover scroll-h-35vw" alt="RRectangle1copy3" src="img/RRectangle1copy3.png" style="width: 100%;height: 100%;">
+                            <img class="img-fluid  img-cover scroll-h-35vw" alt="RRectangle1copy3" src="img/RRectangle1copy3.png" style="width: 100%;height: 100%;border-radius:5%;">
                         </div>
                     </div>
                     <div class="page-section scroll-h-35vw" id="scrol4">
                         <div class="card my-2 card-shadow ">
-                            <img class="img-fluid img-cover scroll-h-35vw" alt="RRectangle1copy4" src="img/RRectangle1copy4.png" style="width: 100%;height: 100%;">
+                            <img class="img-fluid img-cover scroll-h-35vw" alt="RRectangle1copy4" src="img/RRectangle1copy4.png" style="width: 100%;height: 100%;border-radius:5%;">
                         </div>
                     </div>
                 </div>

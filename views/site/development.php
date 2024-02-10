@@ -13,38 +13,162 @@ $this->title = 'Web Development';
 
   
 
-    <!-- Hero Section - Home Page -->
-    <section id="hero" class="hero">
+  <!-- Slider Section - Home Page -->
+  <section id="testimonials" class="testimonials" style="padding-top: 0px;padding-bottom: 0px;">
 
-      <img src="img/walllog.png" alt="" data-aos="fade-in">
+<div class="ontainer">
 
-      <!-- <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2 data-aos="fade-up" data-aos-delay="100">Coders Ready</h2> 
-            <p data-aos="fade-up" data-aos-delay="200">We are team of supremely talented highly Experienced people.</p> 
-             <ul>
-              <li data-aos="fade-up" data-aos-delay="300" ><i class="bi bi-check-circle-fill">Industry relevant job oriented 6 months. Online Certification Courses.</i><hr></li>
-              <li data-aos="fade-up" data-aos-delay="400"><i class="bi bi-check-circle-fill">No boring Recorded lectures. All classes are live, highly interactive compact batches.</i><hr></li>
-              <li data-aos="fade-up" data-aos-delay="500"><i class="bi bi-check-circle-fill">Starting from scratch, No previous coding experience required.</i><hr></li>
-              <li data-aos="fade-up" data-aos-delay="300" ><i class="bi bi-check-circle-fill">Industry relevant job oriented 6 months. Online Certification Courses.</i><hr></li>
-              <li data-aos="fade-up" data-aos-delay="400"><i class="bi bi-check-circle-fill">No boring Recorded lectures. All classes are live, highly interactive compact batches.</i><hr></li>
-              <li data-aos="fade-up" data-aos-delay="500"><i class="bi bi-check-circle-fill">Starting from scratch, No previous coding experience required.</i></li>
-            </ul>
+  <div class="row align-items-center">
 
+    <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+    <!-- <img src="img/carousel-1.jpg" class="testimonial-img flex-shrink-0" style="max-width:100%;" alt=""> -->
+      <div class="swiper">
+        <template class="swiper-config">
+          {
+          "loop": true,
+          "speed" : 600,
+          "autoplay": {
+          "delay": 3000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+          "el": ".swiper-pagination",
+          "type": "bullets",
+          "clickable": true
+          }
+          }
+        </template>
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <!-- <img src="img/carousel-1.jpg" class="testimonial-img flex-shrink-0" style="max-width:100%;" alt=""> -->
+            <div class="testimonial-item" style="margin-top: -5px;margin-left: -5px;margin-right: -5px;margin-bottom: 0px;">
+              <img src="img/jamia.jpg" class="testimonial-img-sldr" alt="">
+              <div class="flex">
+                
+                <div class="text-center">
+                  <h3>Jamia Grop</h3>
+                  <h4>Ceo & Founder</h4> 
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="text-center">
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Text for paragraphText for paragraphText for paragraphText for paragraphText for paragraphText for paragraph</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+         </div>
+         <!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" style="margin-top: -5px;margin-left: -5px;margin-right: -5px;margin-bottom: 0px;">
+                <img src="img/mpgc_hp1.jpg" class="testimonial-img-sldr" alt="">
+                <div class="flex">
+                  
+                  <div class="text-center">
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo & Founder</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-center">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
           </div>
-          <div class="col-lg-6">
-            <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
-              <input type="text" class="form-control" placeholder="Enter email address">
-              <input type="submit" class="btn btn-primary" value="Sign up">
-            </form>
-          </div>
+          <!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" style="margin-top: -5px;margin-left: -5px;margin-right: -5px;margin-bottom: 0px;">
+                <img src="img/mpgc_hp2.jpg" class="testimonial-img-sldr" alt="">
+                <div class="flex">
+                  
+                  <div class="text-center">
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo & Founder</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-center">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" style="margin-top: -5px;margin-left: -5px;margin-right: -5px;margin-bottom: 0px;">
+                <img src="img/soa1.jpg" class="testimonial-img-sldr" alt="">
+                <div class="flex">
+                  
+                  <div class="text-center">
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo & Founder</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-center">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" style="margin-top: -5px;margin-left: -5px;margin-right: -5px;margin-bottom: 0px;">
+                <img src="img/soa2.jpg" class="testimonial-img-sldr" alt="">
+                <div class="flex">
+                  
+                  <div class="text-center">
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo & Founder</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-center">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+          </div><!-- End testimonial item -->
+
         </div>
-      </div> -->
+        <div class="swiper-pagination"></div>
+      </div>
 
-    </section> 
-    <!-- End Hero Section -->
-    <br>
+    </div>
+
+  </div>
+
+</div>
+
+</section><!-- End Testimonials Section -->  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  <br>
     
     
     <br>

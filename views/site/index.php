@@ -8,87 +8,154 @@ $this->title = 'Coders Ready';
 
   <main id="main">
     
-  
-  <!-- Hero Section - Home Page -->
-    <section id="hero" class="hero">
+  <!-- Slider Section - Home Page -->
+  <section id="testimonials" class="testimonials" style="padding-top: 0px;padding-bottom: 0px;">
 
-      <img class="aos-init " src="img/hero-bg.jpg" alt="" data-aos="fade-in">
-      
-      <!-- <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2 data-aos="fade-up" data-aos-delay="100">Coders Ready</h2>
-            <p data-aos="fade-up" data-aos-delay="200">We are team of supremely talented highly Experienced people.</p>
-            <ul data-aos="fade-up" data-aos-delay="300" >
-              <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="300" ><i class="bi bi-check-circle-fill">Industry relevant job oriented 6 months. Online Certification Courses.</i></li><hr>
-              <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="400"><i class="bi bi-check-circle-fill">No boring Recorded lectures. All classes are live, highly interactive compact batches.</i></li><hr>
-              <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="500"><i class="bi bi-check-circle-fill">Starting from scratch, No previous coding experience required.</i></li><hr>
-              <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="300" ><i class="bi bi-check-circle-fill">Industry relevant job oriented 6 months. Online Certification Courses.</i></li><hr>
-              <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="400"><i class="bi bi-check-circle-fill">No boring Recorded lectures. All classes are live, highly interactive compact batches.</i></li><hr>
-              <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="500"><i class="bi bi-check-circle-fill">Starting from scratch, No previous coding experience required.</i></li>
-            </ul>
+<div class="ontainer">
 
-          </div>
-          <div class="col-lg-6">
-            <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
-              <input type="text" class="form-control" placeholder="Enter email address">
-              <input type="submit" class="btn btn-primary" value="Sign up">
-            </form>
-          </div>
+  <div class="row align-items-center">
+
+    <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+    <!-- <img src="img/carousel-1.jpg" class="testimonial-img flex-shrink-0" style="max-width:100%;" alt=""> -->
+      <div class="swiper">
+        <template class="swiper-config">
+          {
+          "loop": true,
+          "speed" : 600,
+          "autoplay": {
+          "delay": 3000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+          "el": ".swiper-pagination",
+          "type": "bullets",
+          "clickable": true
+          }
+          }
+        </template>
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <!-- <img src="img/carousel-1.jpg" class="testimonial-img flex-shrink-0" style="max-width:100%;" alt=""> -->
+            <div class="testimonial-item" style="margin-top: -5px;margin-left: -5px;margin-right: -5px;margin-bottom: 0px;">
+              <img src="img/jamia.jpg" class="testimonial-img-sldr"  alt="">
+              <div class="flex">
+                
+                <div class="text-center">
+                  <h3>Jamia Group</h3>
+                  <h4>Seminar</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="text-center">
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>The most prestiegios seminar  at Jamia The most prestiegios seminar  at Jamia The most prestiegios seminar  at Jamia</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" style="margin-top: -5px;margin-left: -5px;margin-right: -5px;margin-bottom: 0px;">
+                <img src="img/mpgc_hp1.jpg" class="testimonial-img-sldr" alt="">
+                <div class="flex">
+                  
+                  <div class="text-center">
+                    <h3>Training Programm</h3>
+                    <h4>Training</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-center">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Training sessions</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" style="margin-top: -5px;margin-left: -5px;margin-right: -5px;margin-bottom: 0px;">
+                <img src="img/mpgc_hp2.jpg" class="testimonial-img-sldr" alt="">
+                <div class="flex">
+                  
+                  <div class="text-center">
+                  <h3>Training Programm</h3>
+                    <h4>Training</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-center">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Doubt Clearing</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" style="margin-top: -5px;margin-left: -5px;margin-right: -5px;margin-bottom: 0px;">
+                <img src="img/soa1.jpg" class="testimonial-img-sldr" alt="">
+                <div class="flex">
+                  
+                  <div class="text-center">
+                    <h3>Members</h3>
+                    <h4>Members and Partners</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-center">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Members and Prtners</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" style="margin-top: -5px;margin-left: -5px;margin-right: -5px;margin-bottom: 0px;">
+                <img src="img/soa2.jpg" class="testimonial-img-sldr" alt="">
+                <div class="flex">
+                  
+                  <div class="text-center">
+                    <h3>Self Assesment</h3>
+                    <h4>Training Program</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p class="text-center">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>sel</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+          </div><!-- End testimonial item -->
+
         </div>
-      </div> -->
+        <div class="swiper-pagination"></div>
+      </div>
 
-    </section><!-- End Hero Section -->
+    </div>
 
-    <section class="team">
+  </div>
 
+</div>
 
-
-
-
+</section><!-- End Testimonials Section -->
 
 
 
     
-    </section>
-
-    <!-- Clients Section - Home Page -->
-    <section id="clients" class="clients">
-
-      <div class="container-fluid" data-aos="fade-up">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="img/client-1.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="img/client-2.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="img/client-3.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="img/client-4.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="img/client-5.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="img/client-6.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- End Clients Section -->
-
     <!-- About Section - Home Page -->
     <section id="about" class="about">
 
@@ -123,7 +190,7 @@ $this->title = 'Coders Ready';
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon-box">
-                  <i class="bi bi-command"></i>
+                  <i class="bi bi-cloud"></i>
                   <h3>Cloud Services </h3>
                   <p>Coders Ready delivers standardized and secure cloud services, facilitating seamless application deployment on public or private clouds. Our comprehensive support follows industry best practices, tailored to your enterprise's unique needs.</p>
                 </div>
@@ -132,6 +199,8 @@ $this->title = 'Coders Ready';
               
             </div>
           </div>
+
+          
 
         </div>
       </div>
@@ -382,7 +451,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
             <div class="member-img">
-              <img src="img/team-1.jpg" class="img-fluid" alt="">
+              <img src="img/Team-1.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -459,7 +528,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
             <div class="member-img">
-              <img src="img/team-5.jpg" class="img-fluid" alt="">
+              <img src="img/Team-5.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -476,7 +545,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
             <div class="member-img">
-              <img src="img/team-6.jpg" class="img-fluid" alt="">
+              <img src="img/Team-6.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -494,7 +563,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="700">
             <div class="member-img">
-              <img src="img/team-7.jpg" class="img-fluid" alt="">
+              <img src="img/Team-7.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -513,7 +582,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="800">
             <div class="member-img">
-              <img src="img/team-8.jpg" class="img-fluid" alt="">
+              <img src="img/Team-8.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -531,7 +600,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="900">
             <div class="member-img">
-              <img src="img/team-9.jpg" class="img-fluid" alt="">
+              <img src="img/Team-9.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -549,7 +618,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="1000">
             <div class="member-img">
-              <img src="img/team-10.jpg" class="img-fluid" alt="">
+              <img src="img/Team-10.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -567,7 +636,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="1100">
             <div class="member-img">
-              <img src="img/team-11.jpg" class="img-fluid" alt="">
+              <img src="img/Team-11.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -584,7 +653,7 @@ $this->title = 'Coders Ready';
 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="1100">
             <div class="member-img">
-              <img src="img/team-12.jpg" class="img-fluid" alt="">
+              <img src="img/Team-12.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href="#"><i class="bi bi-twitter"></i></a>
                 <a href="#"><i class="bi bi-facebook"></i></a>
@@ -612,9 +681,9 @@ $this->title = 'Coders Ready';
     
 
     <!-- Testimonials Section - Home Page -->
-    <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials" >
 
-      <div class="container"><hr>
+      <div class="container">
 
         <div class="row align-items-center">
 
@@ -758,100 +827,365 @@ $this->title = 'Coders Ready';
 
     </section><!-- End Testimonials Section -->
 
+    
+
     <!-- Recent-posts Section - Home Page -->
-    <section id="recent-posts" class="recent-posts">
+    <section id="recent-posts" class="recent-posts" style="padding-bottom: 0px;">
 
       <!--  Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title" data-aos="fade-up" style="padding-bottom: 0px;">
         <h2>Recent Posts</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
       </div><!-- End Section Title -->
+
+
+
+
+
+    <!-- Testimonials Section - Home Page -->
+    <section id="testimonials" class="testimonials" style="padding-top: 0px;padding-bottom: 0px;">
 
       <div class="container">
 
-        <div class="row gy-4">
+        <div class="row align-items-center">
 
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <article>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
 
-              <div class="post-img">
-                <img src="img/blog-1.jpg" alt="" class="img-fluid">
+            <div class="swiper">
+              <template class="swiper-config">
+                {
+                "loop": true,
+                "speed" : 600,
+                "autoplay": {
+                "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+                }
+                }
+              </template>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item recnt">
+
+                  
+                  <div class="card mb-4">
+                    <img src="img/jamia.jpg" class="testimonial-img-rcnt flex-shrink-0 img-fluid" alt="">
+                    <div class="card-body">
+                      <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                  </div>
+
+                  <!--<img src="img/blog-1.jpg" class="testimonial-img-rcnt flex-shrink-0 img-fluid" alt="">
+                     <div class="d-flex">
+                      
+                      <div>
+                        <h3>Saul Goodman</h3>
+                        <h4>Ceo & Founder</h4>
+                        
+                      </div>
+                    </div>-->
+                    
+                  </div> 
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    
+                    <div class="card mb-4">
+                    <img src="img/iitm.jpg" class="testimonial-img-rcnt flex-shrink-0 img-fluid" alt="">
+                    <div class="card-body">
+                      <h6 class="card-subtitle text-muted">2 Support card subtitle</h6>
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                  </div>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="card mb-4">
+                      <img src="img/bm_group.jpg" class="testimonial-img-rcnt flex-shrink-0 img-fluid" alt="">
+                      <div class="card-body">
+                        <h6 class="card-subtitle text-muted">3Support card subtitle</h6>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      
+                      <div class="card-footer text-muted">
+                        2 days ago
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <!-- <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="img/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Matt Brandon</h3>
+                        <h4>Freelancer</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div> -->
+                <!-- End testimonial item -->
+
+                <!-- <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="img/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>John Larson</h3>
+                        <h4>Entrepreneur</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div> -->
+                <!-- End testimonial item -->
+
               </div>
+              <div class="swiper-pagination"></div>
+            </div>
 
-              <p class="post-category">Politics</p>
+          </div>
+                <!-- swaper1 end -->
 
-              <h2 class="title">
-                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
-              </h2>
 
-              <div class="d-flex align-items-center">
-                <img src="img/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2022</time>
-                  </p>
-                </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper">
+              <template class="swiper-config">
+                {
+                "loop": true,
+                "speed" : 600,
+                "autoplay": {
+                "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+                }
+                }
+              </template>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item recnt">
+
+                  
+                  <div class="card mb-4">
+                    <img src="img/soa1.jpg" class="testimonial-img-rcnt flex-shrink-0 img-fluid" alt="">
+                    <div class="card-body">
+                      <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                  </div>
+
+                  <!--<img src="img/blog-1.jpg" class="testimonial-img-rcnt flex-shrink-0 img-fluid" alt="">
+                     <div class="d-flex">
+                      
+                      <div>
+                        <h3>Saul Goodman</h3>
+                        <h4>Ceo & Founder</h4>
+                        
+                      </div>
+                    </div>-->
+                    
+                  </div> 
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    
+                    <div class="card mb-4">
+                    <img src="img/soa2.jpg" class="testimonial-img-rcnt flex-shrink-0 img-fluid" alt="">
+                    <div class="card-body">
+                      <h6 class="card-subtitle text-muted">2 Support card subtitle</h6>
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                  </div>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="card mb-4">
+                      <img src="img/soa3.jpg" class="testimonial-img-rcnt flex-shrink-0 img-fluid" alt="">
+                      <div class="card-body">
+                        <h6 class="card-subtitle text-muted">3Support card subtitle</h6>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      
+                      <div class="card-footer text-muted">
+                        2 days ago
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                
+
               </div>
+              <div class="swiper-pagination"></div>
+            </div>
 
-            </article>
-          </div><!-- End post list item -->
+          </div>
+          <!-- swaper 2 end -->
 
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <article>
 
-              <div class="post-img">
-                <img src="img/blog-2.jpg" alt="" class="img-fluid">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper">
+              <template class="swiper-config">
+                {
+                "loop": true,
+                "speed" : 600,
+                "autoplay": {
+                "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+                }
+                }
+              </template>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item recnt">
+
+                  
+                  <div class="card mb-4">
+                    <img src="img/mpgc_hp1.jpg" class="testimonial-img-rcnt flex-shrink-0 img-fluid" alt="">
+                    <div class="card-body">
+                      <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                  </div>
+
+                  <!--<img src="img/blog-1.jpg" class="testimonial-img-rcnt flex-shrink-0 img-fluid" alt="">
+                     <div class="d-flex">
+                      
+                      <div>
+                        <h3>Saul Goodman</h3>
+                        <h4>Ceo & Founder</h4>
+                        
+                      </div>
+                    </div>-->
+                    
+                  </div> 
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    
+                    <div class="card mb-4">
+                    <img src="img/mpgc_hp2.jpg" class="testimonial-img-rcnt flex-shrink-0 img-fluid" alt="">
+                    <div class="card-body">
+                      <h6 class="card-subtitle text-muted">2 Support card subtitle</h6>
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                  </div>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="card mb-4">
+                      <img src="img/mpgc_hp1.jpg" class="testimonial-img-rcnt flex-shrink-0 img-fluid" alt="">
+                      <div class="card-body">
+                        <h6 class="card-subtitle text-muted">3Support card subtitle</h6>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                      
+                      <div class="card-footer text-muted">
+                        2 days ago
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                
+
               </div>
+              <div class="swiper-pagination"></div>
+            </div>
 
-              <p class="post-category">Sports</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="img/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Allisa Mayer</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 5, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <article>
-
-              <div class="post-img">
-                <img src="img/blog-3.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Entertainment</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="img/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Mark Dower</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 22, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-        </div><!-- End recent posts list -->
+          </div>
+        </div>
 
       </div>
+
+    </section><!-- End recent Section -->
+
+
+
+
+
+
+
+
+
+        
 
     </section><!-- End Recent-posts Section -->
 

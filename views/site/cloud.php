@@ -11,10 +11,8 @@ $this->title = 'Cloud';
 
 
 
-<script type="text/javascript">
-  
-</script>
-<div class="slider">
+
+<!-- <div class="slider">
   <div class="slides">
     <img src="image1.jpg" alt="Slide 1">
     <img src="image2.jpg" alt="Slide 2">
@@ -23,43 +21,70 @@ $this->title = 'Cloud';
   <button class="prev" onclick="prevSlide()">Previous</button>
   <button class="next" onclick="nextSlide()">Next</button>
 </div>
+ -->
 
 
 
 
 
 
-</section>
 
+<!-- <script>
+  let slideIndex = 0;
+const slides = document.querySelectorAll('.slides img');
+const totalSlides = slides.length;
 
+function showSlide(index) {
+  if (index < 0) {
+    slideIndex = totalSlides - 1;
+  } else if (index >= totalSlides) {
+    slideIndex = 0;
+  }
+
+  const offset = -slideIndex * 100;
+  document.querySelector('.slides').style.transform = translateX(${offset}%);
+}
+
+function nextSlide() {
+  slideIndex++;
+  showSlide(slideIndex);
+}
+
+function prevSlide() {
+  slideIndex--;
+  showSlide(slideIndex);
+} 
+
+// Automatic slideshow
+setInterval(nextSlide, 3000); // Change slide every 3 seconds
+</script>-->
 
   <!-- Hero Section - Home Page -->
-    <!--<section id="hero" class="hero">
-       <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2 data-aos="fade-up" data-aos-delay="100">Coders Ready</h2>
-            <p data-aos="fade-up" data-aos-delay="200">We are team of supremely talented highly Experienced people.</p>
-            <ul data-aos="fade-up" data-aos-delay="300" >
-              <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="300" ><i class="bi bi-check-circle-fill">Industry relevant job oriented 6 months. Online Certification Courses.</i></li><hr>
-              <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="400"><i class="bi bi-check-circle-fill">No boring Recorded lectures. All classes are live, highly interactive compact batches.</i></li><hr>
-              <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="500"><i class="bi bi-check-circle-fill">Starting from scratch, No previous coding experience required.</i></li><hr>
-              <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="300" ><i class="bi bi-check-circle-fill">Industry relevant job oriented 6 months. Online Certification Courses.</i></li><hr>
-              <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="400"><i class="bi bi-check-circle-fill">No boring Recorded lectures. All classes are live, highly interactive compact batches.</i></li><hr>
-              <li class="list-group-item bg-transparent text-white" data-aos="fade-up" data-aos-delay="500"><i class="bi bi-check-circle-fill">Starting from scratch, No previous coding experience required.</i></li>
-            </ul>
-
+  <!--  style="" -->
+    <!-- <section id=" " class="" style=""> -->
+       <!-- <img src="img/hero-bg.jpg" alt="" data-aos="fade-in" > -->
+      <!-- <div class="container">
+        <div class="col-md 3">
+        <div class="slider" style="position: relative;width: 100%;overflow: hidden;">
+          <div class="slides" style="display: flex;transition: transform 0.5s ease;">
+            <div class="slide" style="position: relative;">
+              <img src="img/carousel-1.jpg" alt="Slide 1" style="width: 100%;height: auto;">
+              <div class="caption" style="position: absolute;bottom: 10px;left: 10px;background-color: rgba(0, 0, 0, 0.5);color: white;padding: 5px 10px;">Caption for Slide 1</div>
+            </div>
+            <div class="slide" style="position: relative;">
+              <img src="img/carousel-1.jpg" alt="Slide 2" style="width: 100%;height: auto;">
+              <div class="caption" style="position: absolute;bottom: 10px;left: 10px;background-color: rgba(0, 0, 0, 0.5);color: white;padding: 5px 10px;">Caption for Slide 2</div>
+            </div>
+            <div class="slide" style="position: relative;">
+              <img src="img/carousel-1.jpg" alt="Slide 3" style="width: 100%;height: auto;">
+              <div class="caption" style="position: absolute;bottom: 10px;left: 10px;background-color: rgba(0, 0, 0, 0.5);color: white;padding: 5px 10px;">Caption for Slide 3</div>
+            </div>
           </div>
-          <div class="col-lg-6">
-            <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
-              <input type="text" class="form-control" placeholder="Enter email address">
-              <input type="submit" class="btn btn-primary" value="Sign up">
-            </form>
-          </div>
-        </div>
+          <button class="prev" onclick="prevSlide()" style=" position: absolute;top: 50%;transform: translateY(-50%);z-index: 1;left: 10px;">Previous</button>
+          <button class="next" onclick="nextSlide()" style=" position: absolute;top: 50%;transform: translateY(-50%);z-index: 1;right: 10px;">Next</button>
+        </div></div>
       </div> 
-    </section>-->
+    </section> -->
   <!-- End Hero Section -->
 
 
