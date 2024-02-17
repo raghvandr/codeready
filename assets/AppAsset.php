@@ -21,10 +21,13 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         // 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css',
+        'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css',
+        
 
         'css/site.css',
         'css/main.css',
-        // 'css/slider_style.css',    //slider
+        'mega_nav.css',
+         // 'css/slider_style.css',    //slider
         'css/app_dsai.css',
         // 'css/cloud.css',
         'css/aos.css',
@@ -181,6 +184,8 @@ class AppAsset extends AssetBundle
 
 
         'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js',
+        'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js',
         'js/main.js',
         // ----------assets/vendor original----------------
         'js/bootstrap.bundle.js',
