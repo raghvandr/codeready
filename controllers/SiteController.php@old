@@ -199,8 +199,4 @@ class SiteController extends Controller
     {
         return $this->render('cloud');
     }
-    public function actionPortfolio()
-    {
-        return $this->render('portfolio');
-    }
 }
